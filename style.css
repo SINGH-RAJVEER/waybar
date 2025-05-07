@@ -34,6 +34,7 @@ tooltip {
     background-color: #495057;
     margin: 6px 0px 6px 6px;
     border: 2px solid #6c757d;
+    border-radius: 3px;
 }
 
 #workspaces button {
@@ -55,12 +56,14 @@ tooltip {
 #clock {
     background-color: #495057;
     border: 2px solid #6c757d;
+    border-radius: 3px;
     color: #f8f9fa;
 }
 
 #tray {
     background-color: #495057;
     border: 2px solid #6c757d;
+    border-radius: 3px;
 }
 
 #cpu,
@@ -71,6 +74,7 @@ tooltip {
 #pulseaudio {
     background-color: #495057;
     border: 2px solid #6c757d;
+    border-radius: 3px;
     color: #f8f9fa;
 }
 
@@ -78,6 +82,7 @@ tooltip {
 #memory.critical {
     background-color: #ddc7a1;
     border: 2px solid #6c757d;
+    border-radius: 3px;
     color: #f8f9fa;
 }
 
@@ -86,5 +91,6 @@ tooltip {
 #battery.urgent {
     background-color: #ddc7a1;
     border: 2px solid #c7ab7a;
+    border-radius: 3px;
     color: #c14a4a;
 }
