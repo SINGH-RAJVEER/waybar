@@ -2,7 +2,6 @@
     "layer": "top",
     "spacing": 0,
     "height": 0,
-
     "margin-top": 0,
     "margin-right": 0,
     "margin-bottom": 0,
@@ -23,15 +22,20 @@
         "memory",
         "battery",
         "network",
+        "backlight",
         "pulseaudio"
     ],
 
     "hyrland/workspaces": {
-        "disable-scroll": false,
+        "format": "{name}",
         "all-outputs": true,
         "tooltip": true,
         "tooltip-format": "{name}",
         "on-click": "activate"
+    },
+
+    "backlight": {
+      "format": "bgt {percent}%",
     },
 
     "tray": {
