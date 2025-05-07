@@ -4,7 +4,7 @@
     min-height: 0;
     font-family: "iosevka nerd font";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     padding: 0;
 }
 
@@ -24,6 +24,7 @@ tooltip {
 #memory,
 #battery,
 #network,
+#backlight,
 #pulseaudio {
     margin: 6px 6px 6px 0px;
     padding: 2px 8px;
@@ -62,15 +63,11 @@ tooltip {
     border: 2px solid #6c757d;
 }
 
-#battery {
-    background-color: #495057;
-    border: 2px solid #6c757d;
-    color: #f8f9fa;
-}
-
 #cpu,
 #memory,
+#battery,
 #network,
+#backlight,
 #pulseaudio {
     background-color: #495057;
     border: 2px solid #6c757d;
