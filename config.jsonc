@@ -85,7 +85,7 @@
         "interval": 5,
         "tooltip-format": "{ifname} via {gwaddr}",
         "tooltip-format-wifi": "  {essid} ({signalStrength}%) ",
-        "on-click": "nm-connection-editor" 
+        "on-click": "nm-applet --indicator" 
     },
 
     "pulseaudio": {
