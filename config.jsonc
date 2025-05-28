@@ -27,7 +27,7 @@
         "pulseaudio"
     ],
 
-    "hyrland/workspaces": {
+    "hyprland/workspaces": {
         "format": "{name}",
         "all-outputs": true,
         "tooltip": true,
@@ -36,7 +36,7 @@
     },
 
     "backlight": {
-      "format": "brt {percent}%",
+      "format": "&#xf185;   {percent}%",
     },
 
     "tray": {
@@ -51,7 +51,7 @@
     },
 
     "cpu": {
-        "format": "cpu {usage}%",
+        "format": "&#xf2db;    {usage}%",
         "interval": 3,
 
         "states": {
@@ -60,7 +60,7 @@
     },
 
     "memory": {
-        "format": "mem {percentage}%",
+        "format": "&#xf080;   {percentage}%",
         "interval": 3,
 
         "states": {
@@ -69,14 +69,22 @@
     },
 
     "battery": {
-        "format": "bat {capacity}%",
-        "interval": 15,
-        "states": {
-            "warning": 20,
-            "critical": 10
-        },
-        "tooltip": false
+      "interval": 15,
+      "states": {
+        "warning": 20,
+        "critical": 10
+      },
+      "format": "{icon}   {capacity}%",
+      "format-icons": [
+        "",  // 0-24%   (fa-battery-empty, Unicode: f244)
+        "",  // 25-49%  (fa-battery-quarter, Unicode: f243)
+        "",  // 50-74%  (fa-battery-half, Unicode: f242)
+        "",  // 75-94%  (fa-battery-three-quarters, Unicode: f241)
+        ""   // 95-100% (fa-battery-full, Unicode: f240)
+      ],
+      "tooltip": false
     },
+
 
     "network": {
         "format-wifi": "󰖩   {bandwidthDownBits}", 
@@ -91,10 +99,11 @@
     "pulseaudio": {
         "scroll-step": 5,
         "max-volume": 100,
-        "format": "vol {volume}%",
-        "format-bluetooth": "vol {volume}%",
+        "format": "&#xf028;   {volume}%",
+        "format-bluetooth": "&#xf028;   {volume}%",
         "nospacing": 1,
-        "tooltip": false
+        "tooltip": false,
+        "on-click": "pavucontrol"
     },
 
     "bluetooth": {
