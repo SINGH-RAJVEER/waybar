@@ -1,5 +1,6 @@
 {
     "layer": "top",
+    "position": "bottom",
     "spacing": 0,
     "height": 0,
     "margin-top": 0,
@@ -46,7 +47,7 @@
 
     "clock": {
         "format": "{:%H:%M - %a, %d %b}", 
-        "tooltip": false,
+        "tooltip": true,
         "tooltip-format": "<big>{:%A, %d %B %Y}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
@@ -98,7 +99,7 @@
 
     "pulseaudio": {
         "scroll-step": 5,
-        "max-volume": 100,
+        "max-volume": 150,
         "format": "&#xf028;   {volume}%",
         "format-bluetooth": "&#xf028;   {volume}%",
         "nospacing": 1,

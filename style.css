@@ -4,12 +4,12 @@
     min-height: 0;
     font-family: "iosevka nerd font";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     padding: 0;
 }
 
 window#waybar {
-  background: transparent;
+  background: #000000;
 }
 
 tooltip {
@@ -84,13 +84,7 @@ tooltip {
 }
 
 #cpu.critical,
-#memory.critical {
-    background-color: #ddc7a1;
-    border: 2px solid #6c757d;
-    border-radius: 3px;
-    color: #f8f9fa;
-}
-
+#memory.critical,
 #battery.warning,
 #battery.critical,
 #battery.urgent {
