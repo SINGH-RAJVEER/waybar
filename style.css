@@ -4,7 +4,7 @@
     min-height: 0;
     font-family: "iosevka nerd font";
     font-weight: 500;
-    font-size: 14px;
+    font-size: 10px;
     padding: 0;
 }
 
@@ -28,13 +28,13 @@ tooltip {
 #custom-kbd_backlight,
 #backlight,
 #pulseaudio {
-    margin: 6px 6px 6px 0px;
+    margin: 2px 2px 2px 0px;
     padding: 2px 8px;
 }
 
 #workspaces {
     background-color: #495057;
-    margin: 6px 0px 6px 6px;
+    margin: 2px 0px 2px 2px;
     border: 2px solid #6c757d;
     border-radius: 3px;
 }

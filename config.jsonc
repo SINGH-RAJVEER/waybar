@@ -75,7 +75,7 @@
   },
   "pulseaudio": {
     "scroll-step": 5,
-    "max-volume": 150,
+    "max-volume": 100,
     "format": "&#xf028;   {volume}%",
     "format-bluetooth": "&#xf028;   {volume}%",
     "nospacing": 1,
