@@ -4,7 +4,7 @@
     min-height: 0;
     font-family: "iosevka nerd font";
     font-weight: 500;
-    font-size: 10px;
+    font-size: 11px;
     padding: 0;
 }
 
@@ -29,7 +29,7 @@ tooltip {
 #backlight,
 #pulseaudio {
     margin: 2px 2px 2px 0px;
-    padding: 2px 8px;
+    padding: 2px 7px;
 }
 
 #workspaces {
